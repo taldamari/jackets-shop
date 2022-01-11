@@ -1,6 +1,6 @@
 import "./Product.css";
 
-export default function Product({ title, price, des, cat, image }) {
+export default function Product({ title, price, image }) {
   return (
     <div className="product-card">
       <div className="product-image">
